@@ -33,7 +33,6 @@ if (move_uploaded_file($_FILES["imagen"] ["tmp_name"], $archivo)) {
 			  '" .$fecha. "'
 			)");
 		$resultInsert = mysqli_query($conn, $InsertFile);
-		print_r($InsertFile);
 
 	}
 }
