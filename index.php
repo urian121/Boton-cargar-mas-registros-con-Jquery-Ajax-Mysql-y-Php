@@ -39,7 +39,7 @@ $idComentario = $dataComentarios['id'];  ?>
 <div class="row border_special item-comentario">
     <div class="col-md-2 col-sm-12">
          <div id="imgperfil">
-            <img src="fotosPerfil/<?php echo $dataComentarios['imagen'];?>" alt="">
+            <img src="<?php echo $dataComentarios['imagen'];?>" alt="">
         </div>
     </div> 
 
