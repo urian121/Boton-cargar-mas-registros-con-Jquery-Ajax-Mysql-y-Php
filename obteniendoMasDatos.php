@@ -23,7 +23,7 @@ if($totalRegist >0){
 <div class="row border_special item-comentario" id="<?php echo $dataComent['id']; ?>">
     <div class="col-md-2 col-sm-12">
          <div id="imgperfil">
-            <img src="fotosPerfil/<?php echo $dataComent['imagen'];?>" alt="">
+            <img src="<?php echo $dataComent['imagen'];?>" alt="">
         </div>
     </div> 
 
